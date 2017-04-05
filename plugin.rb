@@ -1,6 +1,6 @@
 # name: ECHO Locale
 # about: Customization hacks. Removes search icon.
-# version: 0.2.0
+# version: 1.8.0
 # authors: Nate Flood for ECHO Inc
 
 # javascript
