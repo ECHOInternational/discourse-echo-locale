@@ -10,11 +10,11 @@ gem "http_accept_language", "2.0.5"
 
 after_initialize do
 	# match the supported locales to the main site.
-	LocaleSiteSetting.class_eval do
-	  def self.supported_locales
-	    %w(en es fr my vi th zh zh_CN sw id km)
-	  end
-	end
+	# LocaleSiteSetting.class_eval do
+	#   def self.supported_locales
+	#     %w(en es fr my vi th zh zh_CN sw id km)
+	#   end
+	# end
 
 	ApplicationController.class_eval do 
 		def set_locale
