@@ -6,7 +6,7 @@
 # javascript
 register_asset "stylesheets/hacks.css"
 
-gem "http_accept_language", "2.0.5"
+# gem "http_accept_language", "2.0.5"
 
 after_initialize do
 	# match the supported locales to the main site.
